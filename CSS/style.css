@@ -77,6 +77,8 @@ footer{
 .joke{
   cursor: url(../images/cat-crylaugh.png), auto;
     text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 30px;
 }
 
 .hide{
