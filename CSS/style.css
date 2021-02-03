@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    min-height: 100vh;
+    margin:0;
+}
+
+img {
+    max-width:  100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background:#ffc4d3;
+    font-family: 'Comfortaa';
+}
+
+p, h3{
+    color: #785964;
+}
+
+
+a{
+    color: #12918F;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #FCFF4B;
+}
+
+
+
+nav ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+    display: flex;
+    grid-gap: 30px;
+    
+    
+}
+
+header {
+    border-bottom: 3px solid #FCFF4B;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+main{
+    flex-grow:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 50px;
+    font-size: 12px;
+}
+
+.credits{
+    text-align:right;
+    
+}
+
+.joke{
+  cursor: url(../images/cat-crylaugh.png), auto;
+    text-align: center;
+}
+
+.hide{
+    display:none;
+}
+
+.next{
+    background-color: #FCFF4B;
+    padding: 15px 15px;
+    display:none;
+    border-radius: 8px;
+}
